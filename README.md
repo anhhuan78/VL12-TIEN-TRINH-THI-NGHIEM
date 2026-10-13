@@ -17,8 +17,9 @@ Yêu cầu cần đạt (YCCD) của chương trình là **giới hạn bắt bu
 
 1. [01 — Nguyên tắc mô hình hóa và dạy học](01_NGUYEN_TAC_MO_HINH_HOA.md): triết lí sư phạm, vai trò toán học, cách đi từ vấn đề đến mô hình.
 2. [02 — Quy tắc biên soạn và kiểm định câu thực nghiệm](02_QUY_TAC_KIEM_DINH_THI_NGHIEM.md): kiểm soát giả thiết, nguồn, dữ kiện, phản ví dụ, đáp án và tạo biến thể.
+3. [03 — Chiến lược chuyên đề luyện thi](03_CHIEN_LUOC_CHUYEN_DE_LUYEN_THI.md): kho câu phong phú song song với hệ phương pháp; dạy phương pháp qua chuỗi bài luyện, không tách thành bài lí thuyết dài.
 
-Chỉ có hai tài liệu quy tắc nền tảng để khởi động. **Chưa tạo thêm hệ mã câu, bảng chỉ mục hay cấu trúc dữ liệu tự động** cho tới khi đã có sản phẩm thực tế cần chúng.
+Bắt đầu bằng ba tài liệu ngắn xác định triết lí, luật kiểm định và cách triển khai chuyên đề. **Chưa tạo thêm hệ mã câu, bảng chỉ mục hay cấu trúc dữ liệu tự động** cho tới khi đã có sản phẩm thực tế cần chúng.
 
 ## Một vòng làm việc chuẩn
 
@@ -41,4 +42,5 @@ YCCD và văn bản chính thức quyết định phạm vi; đề thi chính th
 
 - Đã hình thành bộ nguyên tắc nền tảng từ thảo luận chuyên môn.
 - **Chưa** tuyên bố đã có ngân hàng câu được thẩm định, phân tích dự báo đề thi đáng tin cậy, hoặc giáo án thử nghiệm với học sinh.
-- Hướng thử đầu tiên: chọn một thí nghiệm thật trong phạm vi YCCD, tạo một bài dạy ngắn và vài câu biến thể, kiểm định từng câu trước khi nhân rộng.
+- **Hướng triển khai đã chốt ngày 14/10/2026:** mở rộng nguồn câu hỏi đa dạng theo hai trục YCCD và thao tác tư duy; tổ chức chuỗi luyện **giải mẫu → có hướng dẫn → độc lập → tình huống mới**; phương pháp được rút ra sau từng nhóm bài.
+- **Checkpoint hiện tại:** dùng NotebookLM để kiểm kê câu thực nghiệm từ 2–3 đề sưu tầm mỗi lượt; chỉ sau khi đối chiếu nguồn và kiểm định vật lí mới dùng câu để chấm điểm.
