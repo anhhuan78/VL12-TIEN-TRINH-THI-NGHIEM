@@ -1,0 +1,70 @@
+% PAH — BÀI TẬP CHUYÊN ĐỀ PHƯƠNG PHÁP 01
+% BODY LaTeX — KHÔNG preamble. Yêu cầu môi trường ex_test, \choiceTF, \loigiai.
+% Câu phỏng theo mô hình từ DE 01.pdf — trang 3, Phần II, Câu 1.
+\PAHsection{HAI PHÉP ĐO VÀ ĐẠI LƯỢNG GÂY NHIỄU}{Nhận diện ẩn, kiểm tra phép đo}
+
+\begin{dang}
+\textbf{Trục tư duy.} Khi một đại lượng cần đo bị ảnh hưởng bởi một đại lượng chưa biết khác, cần lập phương trình năng lượng cho từng lần đo, nhận diện hệ số của ẩn phụ, rồi kiểm tra xem các phương trình có đủ thông tin độc lập để xác định đại lượng cần tìm hay không.
+
+Với hai lần đun chất lỏng trong cùng nhiệt lượng kế, khi bỏ qua trao đổi nhiệt ra môi trường và chất không chuyển thể:
+\[
+P_i\tau_i=(m_ic+C)\Delta T_i,\qquad
+\frac{P_i\tau_i}{\Delta T_i}=m_ic+C.
+\]
+Nếu $m_1\ne m_2$ thì có thể tìm riêng $c$ và $C$ từ hai phép đo hợp lệ. Nếu $m_1=m_2$ và $C$ chưa biết, chỉ thay đổi $P_i$, $\tau_i$ không đủ để tách hai ẩn.
+\end{dang}
+
+\PAHMCQBanner{01}{HAI PHÉP ĐO VÀ ĐẠI LƯỢNG GÂY NHIỄU}
+
+\begin{ex_test}
+Một câu lạc bộ khoa học muốn xác định nhiệt dung riêng $c$ của nước bằng dây điện trở. Ban đầu, các thành viên dự đoán: ``Nếu giữ nguyên điện năng cung cấp, khi khối lượng nước tăng gấp đôi thì độ tăng nhiệt độ giảm còn một nửa.'' Một bạn khác cho rằng dự đoán trên đã bỏ qua phần nhiệt lượng kế hấp thụ.
+
+Nhóm dùng cùng một nhiệt lượng kế, dây điện trở cung cấp công suất $P=60\,\mathrm{W}$ trong $\tau=120\,\mathrm{s}$ ở mỗi lần đun. Hai lần bắt đầu ở nhiệt độ như nhau. Coi nhiệt dung riêng $c$ của nước và nhiệt dung hiệu dụng $C$ của bình không đổi; nước không chuyển thể; bỏ qua trao đổi nhiệt với môi trường.
+
+\begin{center}
+\begin{tabular}{|c|c|c|}\hline
+Lần đo & Khối lượng nước & Độ tăng nhiệt độ \\ \hline
+1 & $0{,}20\,\mathrm{kg}$ & $7{,}2\,\mathrm{K}$ \\ \hline
+2 & $0{,}40\,\mathrm{kg}$ & $4{,}0\,\mathrm{K}$ \\ \hline
+\end{tabular}
+\end{center}
+\choiceTF
+{Kết quả phù hợp với dự đoán độ tăng nhiệt độ lần hai bằng đúng một nửa lần một.}
+{\True Với lần đo 1, $P\tau/\Delta T_1=m_1c+C$.}
+{\True Từ hai lần đo suy ra nhiệt dung hiệu dụng của bình là $C=200\,\mathrm{J/K}$.}
+{Giữ nguyên khối lượng nước, chỉ thay đổi công suất và thời gian thì vẫn xác định riêng được $c$ và $C$ từ hai phương trình.}
+\loigiai{Mỗi lần điện năng cung cấp là $P\tau=7200\,\mathrm{J}$. Suy ra
+\[
+\begin{cases}
+0{,}20c+C=7200/7{,}2=1000,\\
+0{,}40c+C=7200/4{,}0=1800.
+\end{cases}
+\]
+Do đó $c=4000\,\mathrm{J/(kg\cdot K)}$, $C=200\,\mathrm{J/K}$. Hai độ tăng nhiệt độ $7{,}2\,\mathrm{K}$ và $4{,}0\,\mathrm{K}$ không theo tỉ lệ $2:1$. Nếu giữ khối lượng như nhau thì mọi phép đo chỉ xác định $mc+C$.}
+\end{ex_test}
+
+% Câu phỏng theo mô hình từ Đề về đích số 2 — trang 3, Phần II, Câu 1.
+\begin{ex_test}
+Một kỹ thuật viên dùng hai mức công suất điện để xác định nhiệt hóa hơi riêng $L$ của một chất lỏng có nhiệt độ sôi thấp hơn nhiệt độ môi trường. Khi chất đang sôi, thời gian cấp điện ở mỗi giai đoạn là $120\,\mathrm{s}$; nhiệt lượng môi trường truyền vào chất lỏng ở hai giai đoạn được xem là bằng nhau. Bỏ qua những ảnh hưởng khác.
+
+\begin{center}
+\begin{tabular}{|c|c|c|}\hline
+Giai đoạn & Công suất điện & Khối lượng hóa hơi \\ \hline
+1 & $90\,\mathrm{W}$ & $6{,}0\,\mathrm{g}$ \\ \hline
+2 & $150\,\mathrm{W}$ & $9{,}0\,\mathrm{g}$ \\ \hline
+\end{tabular}
+\end{center}
+\choiceTF
+{Nhiệt lượng mà chất lỏng nhận ở giai đoạn 1 chỉ bằng $P_1t$.}
+{\True Dữ liệu cho phép xác định $L=2{,}4\cdot10^6\,\mathrm{J/kg}$.}
+{\True Nhiệt lượng môi trường truyền vào mỗi giai đoạn là $3600\,\mathrm{J}$.}
+{Nếu thời gian hai giai đoạn khác nhau nhưng công suất môi trường trao đổi nhiệt không đổi, thì nhiệt lượng môi trường truyền vào mỗi giai đoạn vẫn luôn bằng nhau.}
+\loigiai{Đặt $Q_{\mathrm{mt}}$ là nhiệt lượng môi trường truyền vào ở mỗi giai đoạn. Khi đó
+\[
+\begin{cases}
+ m_1L=P_1t+Q_{\mathrm{mt}},\\
+ m_2L=P_2t+Q_{\mathrm{mt}}.
+\end{cases}
+\]
+Trừ hai phương trình, $L=\dfrac{(150-90)\cdot120}{(9-6)\cdot10^{-3}}=2{,}4\cdot10^6\,\mathrm{J/kg}$. Suy ra $Q_{\mathrm{mt}}=m_1L-P_1t=3600\,\mathrm{J}$. Khi công suất trao đổi môi trường không đổi, $Q_{\mathrm{mt},i}=P_{\mathrm{mt}}t_i$ nên thời gian khác nhau không dẫn đến cùng một nhiệt lượng, trừ trường hợp công suất trao đổi bằng 0.}
+\end{ex_test}
