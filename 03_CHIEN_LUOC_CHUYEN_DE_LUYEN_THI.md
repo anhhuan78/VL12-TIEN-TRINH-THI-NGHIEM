@@ -128,3 +128,29 @@ Học sinh thường mặc định: **câu có số → dùng công thức; câu
 - Hướng dẫn học sinh đi từ **dữ kiện bằng chữ → phương trình/sơ đồ → suy luận → nhận định**, với mức hỗ trợ giảm dần qua các bài.
 - **Không** biến bước mô hình hóa thành nghi thức viết công thức vô nghĩa: chỉ sử dụng công thức khi nó làm rõ cơ chế vật lí, điều kiện áp dụng hoặc giới hạn kết luận.
 - Đánh giá năng lực bằng câu **không có số** nhưng phải suy luận từ quan hệ giữa các đại lượng, có cả câu đủ điều kiện và câu cần xem xét điều kiện.
+
+
+## 10. Hai dạng bài và tiêu chuẩn NGỮ CẢNH trong đề cương (chốt 14/10/2026)
+
+### A. Bài rèn mô hình hóa / lập luận
+
+- Có thể ngắn, tập trung vào mô hình và phép suy luận.
+- Hữu ích trong phần **dạy phương pháp**: từ dữ kiện bằng chữ → phương trình → kiểm tra điều kiện → kết luận.
+- Không bắt buộc dựng một câu chuyện hay bộ dữ liệu nhân tạo cho mọi câu.
+
+### B. Bài tình huống thực nghiệm / đánh giá tổng hợp
+
+- Phải có **vấn đề vật lí có động cơ rõ ràng** (quan sát bất thường, câu hỏi nghiên cứu, giả thuyết, nhu cầu đo đạc hoặc tranh luận khoa học).
+- Dựng bối cảnh theo mạch tự nhiên, khi phù hợp: **quan sát/vấn đề → giả thuyết → phương án thí nghiệm (đề đã cung cấp) → kết quả/bằng chứng → kiểm chứng hoặc điều chỉnh giả thuyết**.
+- Học sinh phải tự **đọc điều kiện → chọn hệ, đại lượng → xây mô hình bằng phương trình/sơ đồ → lập luận → đánh giá kết luận**. Đề không chỉ thuật lại công thức.
+- Dữ kiện, bảng số liệu, hình vẽ nếu có phải có **vai trò trong suy luận**; không thêm chi tiết trang trí để câu dài hơn. Các điều kiện cần thiết phải đủ chặt, không dùng câu hỏi thiếu dữ kiện để gài bẫy mơ hồ.
+- **Đa dạng cách mở vấn đề**: không biến toàn bộ ngân hàng thành cùng một câu khuôn “một nhóm học sinh đưa ra giả thuyết...”.
+
+### Thiết kế hai tầng trong đề cương
+
+- **Tầng rèn phương pháp:** giúp học sinh học cách mô hình hóa và phản biện (có thể giữ nhiều câu ở V02).
+- **Tầng tình huống tổng hợp:** câu có bối cảnh thực nghiệm đầy đủ, gần dạng câu hỏi kiểm tra năng lực; dự kiến biên tập có chọn lọc thành V03.
+
+**Ví dụ mẫu được thảo luận, chưa đưa vào đề đã duyệt:** 2 lần đun các khối lượng nước khác nhau trong cùng nhiệt lượng kế; giả thuyết “khối lượng gấp đôi thì độ tăng nhiệt độ còn một nửa”; xây \(P\tau=(mc+C)\Delta T\), đối chiếu kết quả đo để bác giả thuyết và tính riêng \(c,C\). Khi giữ nguyên \(m\) mà chỉ đổi \(P,\tau\), hai lần đo chỉ cho cùng tổ hợp \(mc+C\) — không đủ tách hai ẩn.
+
+**Trạng thái:** đây là **quy tắc biên soạn đã thống nhất**, KHÔNG phải việc toàn bộ câu V03 đã hoàn thành hoặc được giáo viên duyệt. Mỗi bài sau sửa phải kiểm định lại các điều kiện và đáp án.
