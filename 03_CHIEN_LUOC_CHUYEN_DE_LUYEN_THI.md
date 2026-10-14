@@ -102,3 +102,29 @@ Không đếm số trang phân tích hay số thí nghiệm học sinh đã nghe
 - số câu luyện **có nguồn, đủ chặt chẽ và đã được duyệt**.
 
 **Chưa chốt:** danh mục phương pháp cuối cùng, thời lượng chuyên đề, số bài mỗi cụm, trọng số dự báo đề hoặc hệ thống dữ liệu tự động.
+
+
+## 9. Nguyên tắc cốt lõi — Mô hình hóa cả câu KHÔNG có số liệu (chốt 14/10/2026)
+
+### Lỗ hổng tư duy cần khắc phục
+
+Học sinh thường mặc định: **câu có số → dùng công thức; câu không có số → câu lí thuyết, không cần phương trình**. Chuyên đề phải phá bỏ phép phân loại sai này.
+
+> **Phương trình vật lí trước hết diễn tả quan hệ giữa các đại lượng, không chỉ là công cụ thay số.** Kể cả câu hỏi hoàn toàn định tính, học sinh có thể cần lập phương trình bằng chữ để suy luận.
+
+### Chuỗi thao tác giáo viên cần rèn qua bài tập
+
+1. **Đọc nhận định và dữ kiện:** xác định đại lượng được hỏi, điều kiện đã cho và vật/hệ đang xét.
+2. **Mô hình hóa:** đặt tên đại lượng, viết quan hệ vật lí hoặc sơ đồ tương tác *nếu phù hợp*. Không bắt mọi câu nhận biết phải có công thức.
+3. **Suy luận trên mô hình:** xem dấu, tỉ lệ, đạo hàm khi thích hợp, biến giữ nguyên, trường hợp giới hạn; không thay số nếu đề không cho số.
+4. **Kiểm tra điều kiện:** phân biệt **không suy ra từ dữ kiện** với **sai trong mọi trường hợp**; đánh giá nhận định trong phạm vi mô hình THPT hợp lí.
+5. **Kết luận bằng lời và đối chiếu với mệnh đề gốc.**
+
+**Ví dụ tư duy (minh họa do nhóm biên soạn, không gán cho đề Bộ):** nếu toàn bộ điện năng dùng đun nước thì \(Pt=mc\Delta T\), nên \(\Delta T=Pt/(mc)\). Muốn suy ra \(m\) tăng làm \(\Delta T\) giảm phải giữ \(P,t,c\) như nhau (và điều kiện lý tưởng liên quan). Đề không cho số liệu vẫn phải kiểm tra các điều kiện đó; nếu \(t\) thay đổi thì không có kết luận đơn giản chỉ từ \(m\).
+
+### Tích hợp vào thực hành luyện thi
+
+- **Khi chữa các ý Đúng/Sai định tính**, ưu tiên hỏi: “Nếu viết mệnh đề này thành quan hệ đại lượng, ta được gì? Điều kiện nào đang giữ cố định?”
+- Hướng dẫn học sinh đi từ **dữ kiện bằng chữ → phương trình/sơ đồ → suy luận → nhận định**, với mức hỗ trợ giảm dần qua các bài.
+- **Không** biến bước mô hình hóa thành nghi thức viết công thức vô nghĩa: chỉ sử dụng công thức khi nó làm rõ cơ chế vật lí, điều kiện áp dụng hoặc giới hạn kết luận.
+- Đánh giá năng lực bằng câu **không có số** nhưng phải suy luận từ quan hệ giữa các đại lượng, có cả câu đủ điều kiện và câu cần xem xét điều kiện.
