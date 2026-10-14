@@ -39,29 +39,29 @@ Phối vị trí và dấu Đúng/Sai, không gài sai bằng câu văn mơ hồ
 
 ### PAH-PM01-C01 — Thí nghiệm làm nóng chất lỏng (Đ/S)
 
-Một nhóm học sinh dùng cùng một nhiệt lượng kế có dây đốt để kiểm tra giả thuyết: “Khi tăng khối lượng chất lỏng gấp đôi và giữ nguyên điện năng cấp, độ tăng nhiệt độ sẽ giảm đúng một nửa.” Mỗi lần dây đốt cấp **$72\,\mathrm W$ trong $100\,\mathrm s$**. Hai lần bắt đầu cùng nhiệt độ, không chuyển thể; bỏ qua trao đổi nhiệt với ngoài; nhiệt dung riêng $c$ và nhiệt dung $C$ của bình không đổi.
+Một nhóm học sinh dùng cùng một nhiệt lượng kế có dây đốt để kiểm tra giả thuyết: “Khi tăng khối lượng chất lỏng gấp đôi và giữ nguyên điện năng cấp, độ tăng nhiệt độ sẽ giảm đúng một nửa.” Mỗi lần dây đốt cấp **$84\,\mathrm W$ trong $100\,\mathrm s$**. Hai lần bắt đầu cùng nhiệt độ, không chuyển thể; bỏ qua trao đổi nhiệt với ngoài; nhiệt dung riêng $c$ và nhiệt dung $C$ của bình không đổi.
 
 | Lần đo | $m$ | $\Delta T$ |
 |---|---|---|
-| 1 | $0{,}30\,\mathrm{kg}$ | $6{,}0\,\mathrm K$ |
-| 2 | $0{,}60\,\mathrm{kg}$ | $3{,}6\,\mathrm K$ |
+| 1 | $0{,}30\,\mathrm{kg}$ | $7{,}0\,\mathrm K$ |
+| 2 | $0{,}60\,\mathrm{kg}$ | $4{,}0\,\mathrm K$ |
 
 a) Dữ liệu xác nhận giả thuyết “giảm còn đúng một nửa”. **Sai**.
 
-b) Đối với mỗi lần đo, điện năng cấp được chia cho phần nhiệt lượng tăng của chất và của nhiệt lượng kế. **Đúng**.
+b) Năng lượng điện cấp mỗi lần bằng tổng nhiệt lượng chất lỏng và nhiệt lượng kế hấp thụ. **Đúng**.
 
-c) Hai lần đo cho nhiệt dung riêng $c=2666{,}7\,\mathrm{J/(kg\cdot K)}$. **Đúng theo số liệu làm tròn**, nhưng không phải số đẹp để ra đề chuẩn: **KHÔNG DÙNG**, thay bằng dữ liệu nguyên đẹp phía dưới.
+c) Hai lần đo cho nhiệt dung riêng $c=3000\,\mathrm{J/(kg\cdot K)}$ và nhiệt dung của bình $C=300\,\mathrm{J/K}$. **Đúng**.
 
 d) Nếu giữ nguyên khối lượng mà chỉ đổi thời gian và công suất, dù đo nhiều lần cũng không thể tìm riêng $c,C$ nếu không biết thêm đại lượng khác. **Đúng**.
 
-**Kiểm toán:** câu c đang chứa số xấu — khung sinh phải phát hiện và sửa trước xuất đề. **Bản dùng để in nên sử dụng bảng sau (giữ $P,t$):**
-
-| Lần đo | $m$ | $\Delta T$ |
-|---|---|---|
-| 1 | $0{,}30\,\mathrm{kg}$ | $6{,}0\,\mathrm K$ |
-| 2 | $0{,}60\,\mathrm{kg}$ | $3{,}6\,\mathrm K$ |
-
-**Chú ý:** hai bảng giống nhau; đây là ví dụ *bị loại vì chưa kiểm định tốt*, KHÔNG xem là câu đã đạt. Mục IV cần thay bằng bộ số liệu chặt ở lần nâng phiên bản sau.
+**Kiểm định:**
+\[
+84\cdot100=(0{,}30\cdot3000+300)\cdot 7=8400\ \mathrm J;
+\]
+\[
+84\cdot100=(0{,}60\cdot3000+300)\cdot 4=8400\ \mathrm J.
+\]
+$m_2=2m_1$, nhưng $\Delta T_2=4\,\mathrm K\ne \Delta T_1/2=3{,}5\,\mathrm K$; $m_1\ne m_2$ nên tách được hai ẩn. **Trạng thái: Đã kiểm tra đại số, CHỜ GIÁO VIÊN DUYỆT.**
 
 ### PAH-PM01-C02 — Hóa hơi, thời gian khác nhau (Đ/S)
 
@@ -89,7 +89,7 @@ d) Nếu ở một phương án khác tốc độ hóa hơi hai giai đoạn b�
 \]
 $P_{\rm hao}=30\,\mathrm W$, $L=2\times10^6\,\mathrm{J/kg}$, $m_1/t_1\ne m_2/t_2$.
 
-> **Trạng thái câu:** C02 có kiểm tra số liệu và suy biến toán học; vẫn CHỜ GIÁO VIÊN DUYỆT trước khi in. C01 **bị loại** do lỗi chọn số/vòng làm tròn — chứng minh rằng khung sinh cần cổng kiểm định.
+> **Trạng thái câu:** C02 có kiểm tra số liệu và suy biến toán học; vẫn CHỜ GIÁO VIÊN DUYỆT trước khi in. C01 đã sửa số liệu để thỏa mãn đầy đủ phương trình. Cả C01 và C02 đều CHỜ GIÁO VIÊN DUYỆT; việc kiểm toán chứng minh tính cần thiết của bước thế nghiệm.
 
 ## V. Mẫu lệnh ra đề bằng AI từ kho Git
 
