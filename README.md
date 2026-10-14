@@ -44,3 +44,23 @@ YCCD và văn bản chính thức quyết định phạm vi; đề thi chính th
 - **Chưa** tuyên bố đã có ngân hàng câu được thẩm định, phân tích dự báo đề thi đáng tin cậy, hoặc giáo án thử nghiệm với học sinh.
 - **Hướng triển khai đã chốt ngày 14/10/2026:** mở rộng nguồn câu hỏi đa dạng theo hai trục YCCD và thao tác tư duy; tổ chức chuỗi luyện **giải mẫu → có hướng dẫn → độc lập → tình huống mới**; phương pháp được rút ra sau từng nhóm bài.
 - **Checkpoint hiện tại:** dùng NotebookLM để kiểm kê câu thực nghiệm từ 2–3 đề sưu tầm mỗi lượt; chỉ sau khi đối chiếu nguồn và kiểm định vật lí mới dùng câu để chấm điểm.
+
+
+## Tài liệu làm việc hiện có — từ nguồn thật đến sản phẩm PAH
+
+**Nguồn PDF gốc** (không chỉnh sửa, không sao chép lên Git): [thư mục DE MINH HOA trên Google Drive](https://drive.google.com/drive/folders/1lGy7VHKZiwJi3hZaWB9Vqn-nkQvH9BlN). NotebookLM dùng những PDF này cùng video bài giảng để tìm hiểu cách ra đề; kết quả NotebookLM chỉ là gợi ý, phải đối chiếu nguồn.
+
+**Tài liệu PAH trên Git (đang CHỜ DUYỆT):**
+
+- [Phân tích phương pháp từ video 05](chuyen_de/PHAN_TICH_VIDEO_05_BAN_THAO.md)
+- [Chuyên đề PM01 — Hai phép đo, loại trừ đại lượng phụ](chuyen_de/PM01_HAI_PHEP_DO_VLN_BAN_THAO.md)
+- [Hai bài tập PM01 — LaTeX BODY \`ex_test\`](cau_hoi/PM01_BAI_TAP_EX_TEST_BODY.tex)
+
+**Khi muốn sinh đề mới:** chọn phương pháp hoặc nhóm câu nguồn cần khai thác; yêu cầu AI đọc **(1) đề gốc Drive, (2) hồ sơ phương pháp trên Git, (3) quy tắc kiểm định ở mục 02**, sau đó:
+1. Trích vị trí và cơ chế câu gốc, phân biệt **câu gốc** và **câu phỏng theo**.
+2. Tạo biến thể thay đổi ngữ cảnh, giả thuyết, điều kiện hoặc dữ kiện **nhưng không tự thay đổi mô hình đã kiểm định**.
+3. Tự giải theo phương trình gốc, kiểm tra đơn vị, nghiệm, trường hợp suy biến và từng nhận định Đúng/Sai.
+4. Xuất bản học sinh, đáp án giáo viên, LaTeX; đánh dấu **CHỜ DUYỆT**.
+5. Sau khi giáo viên duyệt, commit câu hỏi và phiên bản chuyên đề vào Git. Không tự gắn nhãn đã duyệt.
+
+**Nguyên tắc lưu trữ:** Drive = nguồn PDF/video gốc; Git = tri thức phân tích, khung câu, Markdown, TeX, mã nguồn và lịch sử chỉnh sửa; PDF in ấn được biên dịch từ nguồn phiên bản tương ứng. Không bắt đầu lại từ prompt trắng và không mặc định rằng chỉ có 2 câu đã tạo đã được duyệt.
