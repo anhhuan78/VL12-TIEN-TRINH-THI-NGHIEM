@@ -154,3 +154,37 @@ Học sinh thường mặc định: **câu có số → dùng công thức; câu
 **Ví dụ mẫu được thảo luận, chưa đưa vào đề đã duyệt:** 2 lần đun các khối lượng nước khác nhau trong cùng nhiệt lượng kế; giả thuyết “khối lượng gấp đôi thì độ tăng nhiệt độ còn một nửa”; xây \(P\tau=(mc+C)\Delta T\), đối chiếu kết quả đo để bác giả thuyết và tính riêng \(c,C\). Khi giữ nguyên \(m\) mà chỉ đổi \(P,\tau\), hai lần đo chỉ cho cùng tổ hợp \(mc+C\) — không đủ tách hai ẩn.
 
 **Trạng thái:** đây là **quy tắc biên soạn đã thống nhất**, KHÔNG phải việc toàn bộ câu V03 đã hoàn thành hoặc được giáo viên duyệt. Mỗi bài sau sửa phải kiểm định lại các điều kiện và đáp án.
+
+
+## 11. Nguồn đề có trước — Phân loại trước — Tạo sinh sau (chốt 14/10/2026)
+
+**Quyết định điều chỉnh chiến lược:** giáo viên đã sở hữu **nhiều đề sưu tầm**. Hệ thống phải **khai thác, giữ và phân loại câu gốc trước**, thay vì bắt đầu bằng bộ sinh câu từ một mô hình trừu tượng rồi nhờ AI sáng tác. Đây là hướng ưu tiên khi thiết kế kho Vật lí nhiệt và mở rộng các chương khác.
+
+### Quy trình nguồn-đầu-vào
+
+1. **Nhập nguồn thật:** PDF đề Bộ, đề sưu tầm, đề thi thử. Bảo toàn tệp nguồn, tên đề, trang, số câu, hình vẽ. Không làm mất câu gốc sau khi AI tóm tắt.
+2. **NotebookLM kiểm kê / phân loại từng lô nhỏ:** vị trí câu; chủ đề/YCCD dự kiến; mô hình kiến thức; thao tác tư duy; câu gần tương tự với câu đã có; cảnh báo phần hình/chữ không chắc. **Nó chỉ tạo chỉ mục ứng viên, không tự xác nhận đáp án.**
+3. **Đối chiếu và tổ chức kho:** kiểm tra với bản PDF các câu được chọn; lưu trạng thái **CHƯA KIỂM ĐỊNH / CẦN SỬA / ĐÃ DUYỆT**. Tương tự hay trùng thì **gắn quan hệ**, không xóa bỏ nguồn gốc từng tác giả.
+4. **Phát hiện nhóm/họ câu:** nhóm kép theo **kiến thức, mô hình vật lí** và **phương pháp tư duy**, đi từ tập câu có thật để rút ra mô hình chung. Không đặt thêm vô số mã nhóm khi chưa cần.
+5. **Đầu ra chỉ sau đó:** (a) chọn câu đã duyệt thành đề luyện; (b) từ câu/họ gốc sinh biến thể có điều kiện đã kiểm định, ghi rõ **phỏng theo/sáng tác**; (c) soạn chuyên đề và chuỗi chữa để học sinh hình thành phương pháp. Cả ba đầu ra truy được về câu và nguồn gốc.
+
+### Hồ sơ tối thiểu của một câu
+
+- **Nguồn:** tên file, trang, Phần/Câu, hình/đồ thị (nếu có), câu nguyên văn hoặc liên kết vị trí PDF;
+- **Phân loại kiến thức:** chương/chủ đề, YCCD đối chiếu (được kiểm tra sau);
+- **Phân loại tư duy:** chọn hệ, kiểm soát biến, lập phương trình, đo đối chứng, kiểm tra giả thuyết, xử lí số liệu, v.v.;
+- **Họ câu / câu tương tự:** quan hệ với câu nguồn khác (nếu có); không lẫn câu nguyên bản với câu biến thể;
+- **Trạng thái:** chưa kiểm định, cần sửa, đã duyệt.
+
+**Bắt đầu đủ bằng một bảng tra cứu:** một câu gốc một dòng (ý a–d theo cùng câu gốc nếu là Đúng/Sai). Bản PDF vẫn là bằng chứng gốc; bảng chỉ để quản lý và truy xuất. Chưa cần cơ sở dữ liệu hay giao diện.
+
+### Kiểm nghiệm trên nguồn đã có
+
+Dùng ba PDF đã tải: **DE 01**, **Đề về đích số 2**, **DE 03**, cùng bảng kiểm kê từ NotebookLM. Bước kế tiếp là **nhập/nhóm lại các câu nguyên gốc** và kiểm định một mẫu, không sinh tiếp 10–20 câu tự nghĩ. Ví dụ dự kiến nhóm các câu đo nhiệt dung riêng, nhiệt hóa hơi riêng, nhiệt nóng chảy riêng theo điểm chung về phép đo nhiều giai đoạn, nhưng vẫn ghi đúng nguồn, biến gây nhiễu và điều kiện áp dụng riêng.
+
+### Nguyên tắc mở rộng
+
+- Thêm đề mới → **phân loại vào nhóm có sẵn hoặc đề xuất nhóm mới** → phát hiện trùng/gần trùng → kiểm định câu cần dùng → mới sinh đề/lập tiến trình.
+- Khi cần tạo đề tương tự, **ưu tiên tái tổ hợp câu đã được duyệt và biến đổi có kiểm soát từ câu gốc**, không cho AI viết tự do thành kho chính thức.
+- Python và SymPy có thể hỗ trợ tự động hóa **sau khi quy trình nhập và phân loại từ tài liệu nguồn vận hành ổn định**.
+- Không sao chép nguyên bộ đề có bản quyền vào repo công khai khi chưa có quyền; giữ nguồn nội bộ và trích xuất vị trí hoặc liên kết.
