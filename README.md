@@ -71,3 +71,5 @@ YCCD và văn bản chính thức quyết định phạm vi; đề thi chính th
 5. Sau khi giáo viên duyệt, commit câu hỏi và phiên bản chuyên đề vào Git. Không tự gắn nhãn đã duyệt.
 
 **Nguyên tắc lưu trữ:** Drive = nguồn PDF/video gốc; Git = tri thức phân tích, khung câu, Markdown, TeX, mã nguồn và lịch sử chỉnh sửa; PDF in ấn được biên dịch từ nguồn phiên bản tương ứng. Không bắt đầu lại từ prompt trắng và không mặc định rằng chỉ có 2 câu đã tạo đã được duyệt.
+
+- [PM01 — Pilot 12 câu Đúng/Sai K–M–Đ × 4 mức (chờ duyệt)](cau_hoi/PM01_PILOT_12_CAU_KMD_V1.md)
