@@ -54,3 +54,31 @@ Bản PDF/website của nhà xuất bản được **giữ tại URL nguồn** h
 ## 5. Cái được ưu tiên làm ngay sau khi lưu
 
 Trước tiên khai thác **INT-04 IOP Cooling corrections** và **INT-06/07 AP2024 Question 2 + Chief Reader Report**. Đây là hai điểm mà PM01 còn yếu: (1) điều kiện áp dụng “nhiệt hao như nhau”; (2) mức kết luận được dữ liệu cho phép. Sau đó đưa ví dụ kỹ thuật vào PM01 câu 4–6, không thay toàn bộ chuyên đề cùng lúc.
+
+
+## 6. Kiểm định báo cáo NotebookLM AP Physics 2 Q2 & IOP Cooling corrections (15/10/2026)
+
+**Tình trạng:** đã đối chiếu trực tiếp đề gốc, lời giải chấm, báo cáo giám khảo của AP và trang IOP. Đây là **kiểm toán nguồn**, không phải nhận định rằng mọi trường hợp nước ngoài đều có thể đưa nguyên vào Vật lí 12 Việt Nam.
+
+**Tài liệu:** [AP Q2 đề chính thức 2024](https://apcentral.collegeboard.org/media/pdf/ap24-frq-physics-2.pdf#page=7) (PDF trang 7–10); [Scoring Guidelines Q2](https://apcentral.collegeboard.org/media/pdf/ap24-sg-physics-2.pdf#page=5); [Chief Reader Report — Question 2](https://apcentral.collegeboard.org/media/pdf/ap24-cr-report-physics-2.pdf#page=5); [IOP Cooling corrections](https://spark.iop.org/cooling-corrections).
+
+### Những phát hiện được nguồn xác nhận
+
+- **AP Q2(a), trang in 7:** bình cách nhiệt, kín, **thành cứng**; đo $p,T$ để tìm số phân tử $N$. Thang điểm yêu cầu **xác định thể tích khí**, **đọc $p,T$**, và **ghi nhiều cặp $p,T$ ở các nhiệt độ khác nhau**. Thành cứng có nghĩa $V$ không đổi, KHÔNG có nghĩa đã biết giá trị $V$.
+- **AP Q2(b), trang in 8:** phác đồ thị $P$–$V$ và $U$–$V$, vẽ mũi tên chiều gia nhiệt; Q2(b)(iii) **chỉ yêu cầu giải thích hình dạng đồ thị $U$–$V$**, không đặt vấn đề dữ liệu thực đo trái dự đoán.
+- **AP Q2(c–d), trang in 9–10:** chọn đại lượng vẽ để được đường thẳng và tính hệ số dẫn nhiệt. Trục có thể là tốc độ truyền nhiệt theo $T_G-T_L$; **phải phân biệt chênh lệch nhiệt độ hai phía vật liệu** với độ tăng nhiệt độ của một vật theo thời gian.
+- **Chief Reader Report, Question 2:** có ghi nhận học sinh nói lặp phép đo mà **không nói phải đổi nhiệt độ**, ngộ nhận bình cứng là đã biết thể tích, chọn trục không đúng; đây là lỗi từ bài thi thật, không phải ví dụ phỏng đoán.
+- **IOP:** trao đổi nhiệt với môi trường có thể gây sai lệch, phương pháp Newton giả định tốc độ trao đổi liên quan tới chênh lệch nhiệt độ. Gợi ý **chênh dưới khoảng $10^\circ\mathrm C$** là nhận xét định tính về quy mô sai số trong phòng thực hành học đường, **không là ngưỡng bắt buộc trong mọi thí nghiệm**. Mục 3 đo nhiệt độ sau khi ngắt nguồn để **ước lượng hiệu chỉnh**; không được khẳng định phép đo này tự động cho giá trị thất thoát chính xác tuyệt đối.
+
+### Ba giới hạn của bản tóm tắt NotebookLM cần giữ nguyên trong hồ sơ
+
+1. Câu “AP Q2(b)(iii) yêu cầu giải thích khi nội năng đo không khớp dự đoán” **không được câu hỏi gốc hỗ trợ**. Có thể phát triển thành **câu mới của PAH** về tính nhất quán, không gán là câu AP.
+2. Khẳng định “vượt $10^\circ\mathrm C$ bắt buộc phải hiệu chỉnh” **mạnh hơn nguồn IOP**.
+3. Giải thích độ lệch đồ thị làm lạnh bằng công suất bức xạ tỉ lệ $T^4$ **không phải kết quả mà trang IOP này trực tiếp xác lập**; chưa lấy làm đáp án đã kiểm định.
+
+### Hai kỹ thuật có thể chuyển giao
+
+- **Kỹ thuật KT01 — Không đổi ≠ đã biết:** Từ bình cứng $V=\text{const}$ nhưng chưa biết $V$, nhận ra nhiều phép đo $p,T$ vẫn chỉ cho $N/V$; cần phép đo thể tích độc lập. Tương tự PM01: giữ nguyên $m$ chỉ đo được $mc+C$, không tự tách được $c,C$.
+- **Kỹ thuật KT02 — Bằng thời gian ≠ bằng nhiệt thất thoát:** Với cùng vật và điều kiện môi trường, nếu nhiệt độ hai lần đo biến thiên khác nhau thì mức mất nhiệt có thể khác nhau dù thời gian giống nhau. Trước khi khử $Q_{\rm mất}$ phải biện minh được nó có bằng nhau không (hoặc có mô hình đáng tin để hiệu chỉnh).
+
+**Áp dụng:** hai câu chuyển giao bổ sung vào [tiến trình PM01](../chuyen_de/PM01_TIEN_TRINH_TU_DUY_KHONG_SO_V1.md) và [LaTeX tình huống quốc tế](../cau_hoi/PM01_02_CAU_CHUYEN_GIAO_AP_IOP_BODY.tex). **Trạng thái:** kiểm tra mô hình và đáp án theo điều kiện mô tả; CHỜ GIÁO VIÊN DUYỆT nội dung dạy.
