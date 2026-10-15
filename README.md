@@ -52,6 +52,8 @@ YCCD và văn bản chính thức quyết định phạm vi; đề thi chính th
 
 **Tài liệu PAH trên Git (đang CHỜ DUYỆT):**
 
+- **[MASTER ngân hàng 28 câu — phân nhóm K–M–Đ × 4 mức, toàn văn + đáp án](cau_hoi/PM01_MASTER_NGAN_HANG_CAU_HOI.md)** — điểm vào để chọn câu làm đề cương.
+
 - [Phân tích phương pháp từ video 05](chuyen_de/PHAN_TICH_VIDEO_05_BAN_THAO.md)
 - [Chuyên đề PM01 — Hai phép đo, loại trừ đại lượng phụ](chuyen_de/PM01_HAI_PHEP_DO_VLN_BAN_THAO.md)
 - [PM01 — Nguồn nước ngoài đối chiếu 4 mức tư duy](nguon/PM01_QUOC_TE_4_MUC_V1.md)
