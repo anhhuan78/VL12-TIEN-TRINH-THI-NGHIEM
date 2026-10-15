@@ -135,3 +135,61 @@ d) Trước khi chấp nhận kết luận, cần xem lại dữ liệu đo và 
 - [Tệp LaTeX sáu câu](../cau_hoi/PM01_06_CAU_DUNG_SAI_KHONG_SO_BODY.tex)
 
 **Lưu ý:** Tài liệu nguồn vẫn lưu trên Drive. Git chỉ chứa phân tích, trục phương pháp và câu PAH tự biên soạn. Các nhận định Đúng/Sai và lời giải ở đây là sản phẩm PAH — không được gán thành đáp án chính thức từ PDF sưu tầm.
+
+
+## VI. Vòng mở rộng từ nguồn quốc tế: hai câu CHUYỂN GIAO mức 3–4 (15/10/2026)
+
+**Xuất xứ phương pháp:** [AP Physics 2 2024 Q2, hướng dẫn chấm và báo cáo giám khảo; IOP Cooling corrections](../nguon/PM01_QUOC_TE_4_MUC_V1.md). **Cả hai câu sau do PAH tự biên soạn**, không phải trích hoặc dịch nguyên đề AP/IOP. Không cho số liệu cụ thể; có những giả thiết khóa để đáp án xác định.
+
+### Câu 7 — Cùng thời gian nhưng có cùng nhiệt thất thoát? (Mức 3 chuyển giao — từ IOP)
+
+Một nhóm học sinh đo nhiệt dung riêng của một chất lỏng bằng **cùng nhiệt lượng kế và dây đốt**. Nhóm thực hiện hai lần đun với cùng khối lượng chất lỏng, cùng nhiệt độ ban đầu, cùng thời gian cấp điện, nhưng công suất lần thứ hai lớn hơn. Nhiệt độ chất lỏng đều cao hơn nhiệt độ phòng; trong suốt mỗi lần đun, nhiệt độ ở lần thứ hai luôn cao hơn lần thứ nhất tại những thời điểm tương ứng (trừ thời điểm ban đầu).
+
+Nhóm giả định nhiệt dung riêng của chất và nhiệt dung của bình không đổi, không có chuyển thể. Trong điều kiện bố trí này, **công suất truyền nhiệt ra môi trường tăng theo độ chênh lệch nhiệt độ giữa nhiệt lượng kế và phòng**, với quy luật truyền nhiệt như nhau cho hai lần đo.
+
+a) Vì hai lần đun kéo dài cùng thời gian nên nhiệt lượng truyền ra môi trường ở hai lần chắc chắn bằng nhau.
+
+b) Trong mô hình trao đổi nhiệt đã cho, tổng nhiệt lượng truyền ra môi trường trong lần thứ hai lớn hơn lần thứ nhất.
+
+c) Phương trình năng lượng của từng lần đo phải kể đến cả nhiệt lượng làm nóng chất lỏng, làm nóng bình và truyền ra môi trường.
+
+d) Nếu đo và hiệu chỉnh chính xác được nhiệt lượng hao phí của cả hai lần, việc giữ nguyên khối lượng chất lỏng vẫn đủ để xác định riêng cả $c$ và $C$ chỉ bằng hai phép đo nhiệt độ.
+
+**Đáp án PAH:** **S–Đ–Đ–S**.
+
+**Giải thích dành cho giáo viên:** đặt $E_i=P_it_i$, $Q_{{\rm hao},i}>0$:
+\[
+E_i=(mc+C)\Delta T_i+Q_{{\rm hao},i}.
+\]
+Theo mô hình tốc độ hao phí tăng theo $T-T_{\rm phòng}$, thời gian bằng nhau nhưng nhiệt độ lần 2 **cao hơn tại mỗi thời điểm** nên $Q_{{\rm hao},2}>Q_{{\rm hao},1}$. Nếu loại được $Q_{{\rm hao},i}$, cả hai phép đo vẫn chỉ cho cùng tổ hợp $mc+C$ vì $m$ không đổi; không thể tách riêng $c,C$.
+
+**Trục PAH mới:** *Đại lượng phụ là hệ quả của lịch sử nhiệt độ, không phải chỉ của thời gian.* Không bắt học sinh tính tích phân truyền nhiệt: yêu cầu hiểu chiều biến thiên và điều kiện so sánh.
+
+### Câu 8 — Bình cứng: không đổi khác với đã biết (Mức 4 chuyển giao — từ AP 2024)
+
+Một phòng thí nghiệm khảo sát khí lí tưởng trong **bình kín có thành cứng**. Bình có bộ sưởi và hai cảm biến đo áp suất tuyệt đối $p$ và nhiệt độ tuyệt đối $T$. Khí không rò rỉ, số phân tử $N$ không đổi, nhưng **thể tích khí bên trong bình chưa được xác định**. Một nhóm thay đổi nhiệt độ, thu được nhiều cặp số đo $p,T$ và nhận thấy tỉ số $p/T$ gần như không đổi trong giới hạn sai số thiết bị.
+
+Một học sinh kết luận: “Không cần xác định thể tích; càng đo nhiều cặp $p,T$ càng có thể tính chính xác số phân tử $N$, đồng thời chứng minh khí sẽ tuân theo định luật khí lí tưởng trong mọi điều kiện.”
+
+a) Thành bình cứng khiến thể tích phần khí chứa trong bình không đổi trong quá trình đo (theo giả thiết).
+
+b) Chỉ bằng nhiều số đo $p,T$, không có thông tin nào về giá trị thể tích $V$, vẫn xác định duy nhất được số phân tử $N$.
+
+c) Việc $p/T$ gần như không đổi trong những điều kiện đã thử đủ để chứng minh khí lí tưởng đúng trong mọi trạng thái và điều kiện khác.
+
+d) Nếu xác định thêm thể tích thực sự dành cho khí, có thể kết hợp $p,T,V$ với mô hình khí lí tưởng để tính $N$.
+
+**Đáp án PAH:** **Đ–S–S–Đ**.
+
+**Giải thích dành cho giáo viên:** từ $pV=Nk_{\rm B}T$ suy ra $p/T=Nk_{\rm B}/V$. Các phép đo trong cùng bình với $V$ chưa biết chỉ xác định $N/V$, không thể tự tách $N$ và $V$. Việc tỉ số đo gần như không đổi **phù hợp** với mô hình trong khoảng khảo sát nhưng không chứng minh mô hình đúng mọi điều kiện. Cần xác định thêm thể tích hiệu dụng của phần chứa khí (không được coi “bình cứng” là “biết thể tích”). 
+
+**Trục PAH mới:** *Điều kiện cố định không thay thế dữ liệu còn thiếu; quan sát phù hợp mô hình không đồng nghĩa chứng minh phổ quát.*
+
+### Quy tắc dạy / kiểm tra sau hai câu
+
+- **Câu 7**: học sinh phải tự phân biệt $t_1=t_2$ với $Q_{{\rm hao},1}=Q_{{\rm hao},2}$, rồi xét có đủ thông tin tách hai ẩn $c,C$ không.
+- **Câu 8**: học sinh phải tự phân biệt $V=\mathrm{const}$ với “đã biết $V$”, sau đó phê bình kết luận vượt quá phạm vi dữ liệu.
+- Chúng là **câu chuyển giao**, không tự động thay thế các câu gốc về nhiệt dung riêng/hóa hơi. Mô hình bình khí lí tưởng thuộc nhánh **Khí lí tưởng**, được dùng ở đây để thử xem phương pháp tư duy PM01 có chuyển sang hiện tượng khác được không.
+- **Chưa tuyên bố:** đã khớp chính xác tỷ lệ mức độ khó của đề tốt nghiệp Bộ hoặc đã có dữ liệu thực nghiệm về độ phân biệt câu. Cả hai còn **CHỜ GIÁO VIÊN DUYỆT**.
+
+**LaTeX:** [PM01 02 câu quốc tế hóa kỹ thuật hỏi](../cau_hoi/PM01_02_CAU_CHUYEN_GIAO_AP_IOP_BODY.tex).
