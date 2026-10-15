@@ -54,6 +54,7 @@ YCCD và văn bản chính thức quyết định phạm vi; đề thi chính th
 
 - [Phân tích phương pháp từ video 05](chuyen_de/PHAN_TICH_VIDEO_05_BAN_THAO.md)
 - [Chuyên đề PM01 — Hai phép đo, loại trừ đại lượng phụ](chuyen_de/PM01_HAI_PHEP_DO_VLN_BAN_THAO.md)
+- [PM01 — Nguồn nước ngoài đối chiếu 4 mức tư duy](nguon/PM01_QUOC_TE_4_MUC_V1.md)
 - [PM01 — Đối chiếu bốn câu nguồn và trục tư duy hai ẩn](nguon/PM01_DOI_CHIEU_4_CAU_NGUON_V1.md)
 - [PM01 — Tiến trình 4 mức, 6 câu Đúng/Sai không có số liệu](chuyen_de/PM01_TIEN_TRINH_TU_DUY_KHONG_SO_V1.md)
 - [PM01 — LaTeX BODY 6 câu tình huống thực nghiệm](cau_hoi/PM01_06_CAU_DUNG_SAI_KHONG_SO_BODY.tex)
