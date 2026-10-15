@@ -2,8 +2,10 @@
 
 > Ngày 15/10/2026 · **BẢN NGHIÊN CỨU / CHƯA DUYỆT**.
 >
-> **Nguồn:** báo cáo NotebookLM do giáo viên cung cấp trong hội thoại ngày 15/10/2026 về Video 06 (thầy Nam) và đề chính thức 2026, mã 0211, II.4; đề 2026 lần 2, mã 0233, II.3.
-> **Mức độ xác minh:** chưa có toàn bộ video/slide/timestamp gốc trong lần làm việc này. Các câu “Video 06 có ...” bên dưới **theo báo cáo NotebookLM**, không thay thế việc kiểm tra video thực. Những phân loại, bổ sung và câu hỏi mới là **PAH suy ra**.
+> **Nguồn gốc đã tìm lại:** [Video 06 — Tìm hiểu quá trình chuyển thể của chất.mp4](https://drive.google.com/file/d/1wHOO1-T3ETIsIbhxrc-nqhKglcJ9qhgQ/view), thuộc [thư mục bài 06](https://drive.google.com/drive/folders/1nAcRcHdJm4RBPFygs3Ewbop1jedIgSB0) trong khóa [LIVE M TIẾN TRÌNH NGHIÊN CỨU VẬT LÝ](https://drive.google.com/drive/folders/1CdGLfG3JvEf6Y_UrqBywY3Fm87u7AHfD).
+> **Mức độ xác minh cập nhật:** ngày 15/10/2026 đã tải được video gốc (khoảng 44 phút 15 giây), kiểm tra trực tiếp các khung hình/slide tại những mốc 05:00, 07:30, 20:00, 27:30, 30:00, 35:00 và 40:00. **Chưa phiên âm/kiểm tra đầy đủ lời nói**: không gán các câu trong bản NotebookLM thành trích dẫn nguyên văn lời giảng nếu chỉ xác minh được nội dung slide. Phân loại K–M–Đ và các câu hỏi phát triển thêm vẫn là **nhận xét PAH**.
+>
+> **Nguồn đối chiếu khác:** báo cáo NotebookLM giáo viên đưa và đề chính thức 2026, mã 0211, II.4; đề 2026 lần 2, mã 0233, II.3.
 
 ## 1. Phát hiện từ báo cáo
 
@@ -84,8 +86,27 @@ d) Kết quả độ tăng nhiệt độ mỗi khoảng giảm dần đã đủ 
 
 ## 6. Việc cần đối chiếu lần tới
 
-- Mốc thời gian Video 06 về *đặt vấn đề*, *12 lệnh hỏi*, *diễn giải đồ thị* và *bước 5 thảo luận*: xác nhận từ video gốc.
+- **Đã xác nhận trên khung hình video gốc:** các slide đặt vấn đề, giả thuyết, đồ thị $T(t)$, báo cáo–thảo luận, câu Đúng/Sai. **Còn lại:** cần nghe hoặc đối chiếu bản chép lời để xác minh chính xác diễn giải bằng lời, và xem kỹ toàn bộ các mệnh đề cuối video.
 - Câu chữ chính thức, hình và dữ liệu của 0211–II.4 và 0233–II.3; chú ý hai mã đề và thời điểm thi.
 - Kiểm định tình huống mới, YCCD và tác dụng của hình vẽ trước khi duyệt câu hỏi dùng học sinh.
 
 **Không ghi đè các chuyên đề K và Đ đã có.** Đây là hồ sơ bổ sung làm rõ ranh giới K–M–Đ; bộ câu K thuần túy tiếp tục phát triển trong [nhánh khảo sát sự phụ thuộc](../chuyen_de/PM01_NHANH_KHAO_SAT_SU_PHU_THUOC_V1.md). 
+
+
+## 7. Đối chiếu trực tiếp KHUNG HÌNH của Video 06 từ Google Drive
+
+**Mở nguồn:** [video 06](https://drive.google.com/file/d/1wHOO1-T3ETIsIbhxrc-nqhKglcJ9qhgQ/view), dài khoảng 44 phút 15 giây. Các mốc dưới đây là thời điểm lấy ảnh **xấp xỉ**; không phải thời điểm bắt đầu/kết thúc chính xác của một đoạn lời giảng.
+
+| Mốc | Nội dung có thể đọc trên slide gốc | Hệ quả cho phân loại |
+|---|---|---|
+| ~05:00 | **Đề xuất vấn đề và đặt câu hỏi**: làm thí nghiệm xác định **nhiệt độ nóng chảy và nhiệt độ sôi** của mẫu rắn tinh khiết ở áp suất xác định | **M** — mục tiêu xác định đại lượng |
+| ~07:30 | **Giả thuyết**: nếu cấp nhiệt liên tục với **công suất không đổi**, theo dõi nhiệt độ theo thời gian thì có thể xác định nhiệt độ chuyển thể và nhiệt dung riêng | **M** là đích chính; đồ thị $T(t)$ là phương tiện; có thể khai thác **K** bằng câu mới |
+| ~20:00 | Đồ thị $T(t)$ với hai đoạn nhiệt độ không đổi (1–2 và 3–4) xen giữa các đoạn nhiệt độ tăng | Dữ liệu biểu diễn nhiều quá trình; phục vụ nhận diện giai đoạn và suy ra đại lượng đặc trưng |
+| ~22:30–26:00 | Slide viết công thức tìm $c$ và $\lambda$ từ các đoạn đồ thị/điện năng | Xác minh thao tác **M — đo đại lượng** thật sự xuất hiện, không chỉ khảo sát quan hệ |
+| ~27:30 | **Báo cáo** cho rằng số liệu ủng hộ giả thuyết nêu ở phần đầu | Bằng chứng về cách tác giả tổ chức một tiến trình báo cáo |
+| ~30:00 | **Thảo luận**: nhiệt độ chuyển thể được xem là đáng tin cậy; $c,\lambda,L$ chịu ảnh hưởng lớn của trao đổi nhiệt với các bộ phận khác và môi trường | Xác minh nguồn có **phát hiện hạn chế của M** và mở vấn đề cho **Đ** |
+| ~35:00–40:00 | Một câu hỏi tiến trình gồm nhiều nhận định (a–l): trình tự thí nghiệm, nhận xét giả thuyết, các pha trên đồ thị, biểu thức $c$, nhiệt chuyển thể... | Cùng ngữ cảnh tạo nhiều kiểu nhận định; không chứng minh rằng tác giả đã trực tiếp ra một câu **K thuần túy** về $c$ phụ thuộc $m$ |
+
+**Kết luận kiểm định:** Phân loại của bản NotebookLM nói Video 06 *hoàn toàn thuộc K* chưa chính xác với mục tiêu ghi trên slide. Trong **ngữ cảnh T–t này**, chủ đích chính là **M: xác định các đại lượng nhiệt học**; phần kiểm tra dạng biến thiên $T(t)$ có thể khai thác thành **K**, còn bước thảo luận về hao phí là cầu nối sang **Đ**. Không gán trục K–M–Đ là cách phân loại do thầy Nam đặt tên; đó là **hệ thống hóa PAH**.
+
+**Giới hạn thực tế:** Đã có video và đã đọc khung hình; **chưa nghe/transcribe toàn bộ âm thanh**. Những nhận xét về phát biểu nói trực tiếp vẫn cần đối chiếu audio hoặc bản ghi lời.
