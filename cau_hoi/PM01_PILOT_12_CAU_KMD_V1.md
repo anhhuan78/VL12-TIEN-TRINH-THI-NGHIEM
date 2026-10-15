@@ -27,13 +27,15 @@
 
 **Tình huống.** Một nhóm muốn khảo sát độ tăng nhiệt độ của nước phụ thuộc vào khối lượng như thế nào. Nhóm sử dụng hai phần nước cùng trạng thái, có nhiệt độ ban đầu bằng nhau; mỗi phần được cung cấp **cùng một nhiệt lượng thực sự truyền cho nước**. Khối lượng mẫu B lớn hơn mẫu A. Trong khoảng thí nghiệm, nhiệt dung riêng $c$ của nước không đổi, không có chuyển thể.
 
-a) Khối lượng nước là đại lượng được chủ động thay đổi trong thí nghiệm. **Đ**.
+a) Mẫu B có độ tăng nhiệt độ lớn hơn mẫu A do khối lượng lớn hơn. **S**.
 
-b) Độ tăng nhiệt độ của nước là đại lượng nhóm cần đo để đánh giá sự phụ thuộc. **Đ**.
+b) Khối lượng nước là đại lượng được chủ động thay đổi trong thí nghiệm. **Đ**.
 
-c) Mẫu B có độ tăng nhiệt độ lớn hơn mẫu A do khối lượng lớn hơn. **S**.
+c) Độ tăng nhiệt độ của nước là đại lượng nhóm cần đo để đánh giá sự phụ thuộc. **Đ**.
 
 d) Từ thí nghiệm này có thể kết luận nhiệt dung riêng của nước tỉ lệ nghịch với khối lượng mẫu. **S**.
+
+**Đáp án:** **S–Đ–Đ–S**.
 
 **Giải thích:** $\Delta T=Q/(mc)$. Với cùng $Q$ hữu ích và $c$, mẫu lớn hơn tăng nhiệt ít hơn. $c$ được giả định là đặc trưng không đổi của chất; không suy $c\propto1/m$ từ công thức.
 
@@ -43,13 +45,15 @@ d) Từ thí nghiệm này có thể kết luận nhiệt dung riêng của nư�
 
 **Tình huống.** Nhóm khảo sát ảnh hưởng của bản chất vật liệu đến độ tăng nhiệt độ. Hai khối rắn A, B có cùng khối lượng và nhiệt độ ban đầu, được cung cấp cùng nhiệt lượng hữu ích, không chuyển thể; nhiệt dung riêng của A nhỏ hơn B và đều xem như không đổi trong khoảng đo.
 
-a) Với các điều kiện đã cho, vật A tăng nhiệt độ nhiều hơn vật B. **Đ**.
+a) Hai vật có cùng khối lượng và nhận cùng nhiệt lượng thì nhất thiết có cùng độ tăng nhiệt độ. **S**.
 
-b) Hai vật có cùng khối lượng và nhận cùng nhiệt lượng thì nhất thiết có cùng độ tăng nhiệt độ. **S**.
+b) Với các điều kiện đã cho, vật A tăng nhiệt độ nhiều hơn vật B. **Đ**.
 
-c) Khi khảo sát ảnh hưởng của bản chất chất, việc giữ cùng khối lượng và nhiệt lượng cấp giúp hạn chế sự lẫn lộn do hai yếu tố này. **Đ**.
+c) Kết quả A tăng nhiệt nhiều hơn cho phép suy ra nhiệt dung riêng của A lớn hơn B. **S**.
 
-d) Kết quả A tăng nhiệt nhiều hơn cho phép suy ra nhiệt dung riêng của A lớn hơn B. **S**.
+d) Khi khảo sát ảnh hưởng của bản chất chất, việc giữ cùng khối lượng và nhiệt lượng cấp giúp hạn chế sự lẫn lộn do hai yếu tố này. **Đ**.
+
+**Đáp án:** **S–Đ–S–Đ**.
 
 **Giải thích:** $\Delta T=Q/(mc)$, nên $c_A<c_B\Rightarrow\Delta T_A>\Delta T_B$; cần phân biệt thứ tự các đại lượng với quan hệ tỉ lệ. Thí nghiệm khảo sát quan hệ, không phải hiệu chuẩn nhiệt lượng kế.
 
@@ -63,9 +67,11 @@ a) Nhóm II đã chủ động thay đổi đúng biến cần khảo sát. **Đ
 
 b) Ở nhóm I, mọi thay đổi nhiệt độ đo được đều có thể quy cho riêng sự thay đổi khối lượng. **S**.
 
-c) Để đánh giá giả thuyết, nhóm II có thể so sánh $\Delta T$ ở các giá trị khối lượng khác nhau. **Đ**.
+c) Vì công suất điện của nhóm I không đổi, điện năng nguồn cấp chắc chắn bằng nhau dù thời gian đun khác nhau. **S**.
 
-d) Vì công suất điện của nhóm I không đổi, điện năng nguồn cấp chắc chắn bằng nhau dù thời gian đun khác nhau. **S**.
+d) Để đánh giá giả thuyết, nhóm II có thể so sánh $\Delta T$ ở các giá trị khối lượng khác nhau. **Đ**.
+
+**Đáp án:** **Đ–S–S–Đ**.
 
 **Giải thích:** Nhóm I thay đồng thời $m$ và $t$, nên $E=Pt$ cũng biến đổi — phép kiểm tra chưa cô lập được ảnh hưởng $m$. Nhóm II giữ $Q_{\rm hữu ích}$ cố định nên phù hợp hơn cho câu hỏi nghiên cứu.
 
@@ -75,13 +81,15 @@ d) Vì công suất điện của nhóm I không đổi, điện năng nguồn c
 
 **Tình huống.** Một nhóm cho rằng “nhiệt dung riêng của một chất lỏng giảm khi khối lượng mẫu tăng”. Nhóm dùng **cùng một bình có nhiệt dung $C>0$**, làm nóng các mẫu khác khối lượng và đo điện năng $E$ cùng độ tăng nhiệt $\Delta T$. Toàn bộ điện năng chỉ dùng để làm nóng mẫu và bình; không chuyển thể, không mất nhiệt ra môi trường. Trong phạm vi khảo sát, $c$ thực của chất và $C$ đều không đổi. Tuy nhiên, nhóm tính $c_{\rm đo}=E/(m\Delta T)$, **bỏ qua nhiệt lượng bình hấp thụ**, rồi nhận thấy $c_{\rm đo}$ giảm theo $m$.
 
-a) Giá trị $c_{\rm đo}$ theo cách xử lý của nhóm bằng $c+C/m$. **Đ**.
+a) Xu hướng số đo trên là bằng chứng đủ để khẳng định $c$ thực của chất giảm khi khối lượng tăng. **S**.
 
-b) Khi tăng khối lượng mẫu, $c_{\rm đo}$ có thể giảm dù $c$ thực vẫn không đổi. **Đ**.
+b) Giá trị $c_{\rm đo}$ theo cách xử lý của nhóm bằng $c+C/m$. **Đ**.
 
-c) Xu hướng số đo trên là bằng chứng đủ để khẳng định $c$ thực của chất giảm khi khối lượng tăng. **S**.
+c) Sự phù hợp của dữ liệu với một giả thuyết luôn loại trừ khả năng cách xử lý số liệu có sai lệch hệ thống. **S**.
 
-d) Sự phù hợp của dữ liệu với một giả thuyết luôn loại trừ khả năng cách xử lý số liệu có sai lệch hệ thống. **S**.
+d) Khi tăng khối lượng mẫu, $c_{\rm đo}$ có thể giảm dù $c$ thực vẫn không đổi. **Đ**.
+
+**Đáp án:** **S–Đ–S–Đ**.
 
 **Giải thích:** $E=(mc+C)\Delta T$ nên $c_{\rm đo}=c+C/m$. Đây là **phụ thuộc biểu kiến**, không phải chứng cứ của phụ thuộc vật lý thực.
 
@@ -95,13 +103,15 @@ d) Sự phù hợp của dữ liệu với một giả thuyết luôn loại tr�
 
 **Tình huống.** Một nhóm dùng dây điện trở có công suất điện $P$ không đổi để đun một khối lượng $m$ chất lỏng. Nhiệt lượng kế được coi không thu nhiệt, nhiệt truyền ra môi trường không đáng kể; chất không chuyển thể và $c$ không đổi trong khoảng khảo sát. Nhóm đo nhiệt độ trước và sau khi đun trong thời gian $t$.
 
-a) Cần xác định độ tăng nhiệt $\Delta T$ từ hai số chỉ nhiệt kế. **Đ**.
+a) Để xác định $c$ theo mô hình, có thể bỏ phép đo khối lượng $m$. **S**.
 
-b) Để xác định $c$ theo mô hình, có thể bỏ phép đo khối lượng $m$. **S**.
+b) Cần xác định độ tăng nhiệt $\Delta T$ từ hai số chỉ nhiệt kế. **Đ**.
 
 c) Trong điều kiện đã giả định, có thể dùng $Pt=mc\Delta T$. **Đ**.
 
 d) Đo đúng thời gian $t$ là đủ xác định $c$ ngay cả khi chưa biết công suất, khối lượng và $\Delta T$. **S**.
+
+**Đáp án:** **S–Đ–Đ–S**.
 
 **Giải thích:** $c=Pt/(m\Delta T)$; mỗi đại lượng đo có một vai trò, không được bỏ bớt tùy ý.
 
@@ -115,9 +125,11 @@ a) Đoạn B–C biểu diễn quá trình mẫu vẫn nhận năng lượng nh�
 
 b) Vì nhiệt độ không đổi trên B–C, mẫu hoàn toàn không nhận năng lượng từ nguồn. **S**.
 
-c) Nếu biết công suất hữu ích và khối lượng đã nóng chảy, có thể dùng thời lượng B–C để ước lượng nhiệt nóng chảy riêng. **Đ**.
+c) Độ dốc của A–B và C–D chắc chắn bằng nhau vì cùng nguồn điện. **S**.
 
-d) Độ dốc của A–B và C–D chắc chắn bằng nhau vì cùng nguồn điện. **S**.
+d) Nếu biết công suất hữu ích và khối lượng đã nóng chảy, có thể dùng thời lượng B–C để ước lượng nhiệt nóng chảy riêng. **Đ**.
+
+**Đáp án:** **Đ–S–S–Đ**.
 
 **Giải thích:** trên B–C năng lượng dùng cho chuyển thể, $\lambda=P_{\rm ích}(t_C-t_B)/m$ khi nóng chảy hoàn toàn. Sườn gia nhiệt trong hai pha có thể khác nhau do nhiệt dung riêng khác nhau.
 
@@ -127,13 +139,15 @@ d) Độ dốc của A–B và C–D chắc chắn bằng nhau vì cùng nguồn
 
 **Tình huống.** Một nhóm đun cùng một khối lượng $m$ nước trong cùng nhiệt lượng kế có nhiệt dung **chưa biết $C$**. Công suất $P$ được xác định, nhiệt lượng ra môi trường không đáng kể, nước không chuyển thể, $c$ và $C$ không đổi. Nhóm đo nhiều cặp thời gian đun $t$ và độ tăng nhiệt $\Delta T$ với cùng khối lượng nước.
 
-a) Từ độ dốc đường $\Delta T$ theo $t$, nhóm xác định được tổ hợp $mc+C$. **Đ**.
+a) Chỉ tăng số lần đo $t,\Delta T$ ở cùng $m$ luôn đủ để xác định riêng cả $c$ và $C$. **S**.
 
-b) Chỉ tăng số lần đo $t,\Delta T$ ở cùng $m$ luôn đủ để xác định riêng cả $c$ và $C$. **S**.
+b) Từ độ dốc đường $\Delta T$ theo $t$, nhóm xác định được tổ hợp $mc+C$. **Đ**.
 
-c) Nếu $C$ được xác định bằng phép hiệu chuẩn độc lập, nhóm có thể tìm riêng $c$. **Đ**.
+c) Vì nhiệt lượng kế không trao đổi nhiệt với môi trường, nó không thể hấp thụ phần nào điện năng cấp vào. **S**.
 
-d) Vì nhiệt lượng kế không trao đổi nhiệt với môi trường, nó không thể hấp thụ phần nào điện năng cấp vào. **S**.
+d) Nếu $C$ được xác định bằng phép hiệu chuẩn độc lập, nhóm có thể tìm riêng $c$. **Đ**.
+
+**Đáp án:** **S–Đ–S–Đ**.
 
 **Giải thích:** $Pt=(mc+C)\Delta T$. Các phép đo lặp cùng cấu trúc chỉ cho một tổ hợp hai ẩn. **Không hao nhiệt ra ngoài** khác **bình không hấp thụ nhiệt**.
 
@@ -151,6 +165,8 @@ c) Nếu $r_1\ne r_2$, hai phương trình cho phép xác định duy nhất $L$
 
 d) Nếu $r_1=r_2$ và $P_1=P_2$, số phép đo tăng lên bằng cách lặp lại đúng cấu hình ấy sẽ tự động tách được riêng $L$ và $H$. **S**.
 
+**Đáp án:** **Đ–S–Đ–S**.
+
 **Giải thích:** đây là hệ hai ẩn; hai hàng độc lập khi $r_1\ne r_2$. Trường hợp $r_1=r_2$, $P_1\ne P_2$ là mâu thuẫn với cả *bộ* giả thiết; $r_1=r_2$, $P_1=P_2$ thì chưa xác định riêng hai ẩn.
 
 **Hình cần vẽ:** hai lượt hóa hơi có ghi $r_1,r_2,P_1,P_2$, mũi tên $H$ truyền ra môi trường; không cần số.
@@ -163,13 +179,15 @@ d) Nếu $r_1=r_2$ và $P_1=P_2$, số phép đo tăng lên bằng cách lặp l
 
 **Tình huống.** Một nhóm muốn đo nhiệt nóng chảy riêng của nước đá ở nhiệt độ nóng chảy trong phòng ấm. Nước đá đặt trong phễu có dây điện trở, nước tan chảy được hứng và cân. Nhóm đo **giai đoạn A không cấp điện** và **giai đoạn B có cấp điện**; hai giai đoạn dài bằng nhau. Nhóm nêu **giả thiết bổ sung**: phần nhiệt do môi trường truyền vào nước đá trong hai giai đoạn bằng nhau, hệ không tích lũy năng lượng đáng kể ngoài chuyển thể.
 
-a) Trong giai đoạn A, nước đá vẫn có thể tan do nhận nhiệt từ môi trường. **Đ**.
+a) Chỉ vì hai giai đoạn cùng thời gian, nhiệt từ môi trường chắc chắn bằng nhau trong mọi bố trí. **S**.
 
-b) Chỉ vì hai giai đoạn cùng thời gian, nhiệt từ môi trường chắc chắn bằng nhau trong mọi bố trí. **S**.
+b) Nếu bỏ giả thiết nhiệt môi trường truyền vào hai giai đoạn bằng nhau, việc lấy chênh lệch khối lượng tan vẫn luôn loại trừ chính xác tác động của môi trường. **S**.
 
-c) Với giả thiết đã cho, chênh lệch khối lượng nước đá tan là do phần nhiệt tăng thêm từ dây điện trở ở giai đoạn B. **Đ**.
+c) Trong giai đoạn A, nước đá vẫn có thể tan do nhận nhiệt từ môi trường. **Đ**.
 
-d) Nếu bỏ giả thiết nhiệt môi trường truyền vào hai giai đoạn bằng nhau, việc lấy chênh lệch khối lượng tan vẫn luôn loại trừ chính xác tác động của môi trường. **S**.
+d) Với giả thiết đã cho, chênh lệch khối lượng nước đá tan là do phần nhiệt tăng thêm từ dây điện trở ở giai đoạn B. **Đ**.
+
+**Đáp án:** **S–S–Đ–Đ**.
 
 **Giải thích:** dưới các điều kiện mô hình, $\lambda(m_B-m_A)=Pt$ nếu chỉ gia tăng phần cấp điện ở B. Cùng thời gian là một lựa chọn thiết kế, **chưa tự đủ** để chứng minh nhiệt môi trường bằng nhau.
 
@@ -179,13 +197,15 @@ d) Nếu bỏ giả thiết nhiệt môi trường truyền vào hai giai đoạ
 
 **Tình huống.** Nhóm dùng cùng một nhiệt lượng kế có nhiệt dung chưa biết $C$ để đo $c$ của chất lỏng. Hai lần đun có khối lượng $m_1\ne m_2$, công suất điện như nhau $P$, thời gian tương ứng $t_1,t_2$. **Nhiệt độ ban đầu và độ tăng nhiệt $\Delta T>0$ bằng nhau trong hai lần**, các bộ phận của bình cùng tăng nhiệt, $C$ không đổi, không chuyển thể và bỏ qua truyền nhiệt ra môi trường.
 
-a) Trong mô hình trên, nhiệt lượng bình hấp thụ ở hai lần bằng nhau. **Đ**.
+a) Chỉ cần giữ cùng $\Delta T$, không cần cùng bình hoặc cùng nhiệt dung bình vẫn chắc chắn khử được nhiệt lượng của bình. **S**.
 
-b) Chỉ cần giữ cùng $\Delta T$, không cần cùng bình hoặc cùng nhiệt dung bình vẫn chắc chắn khử được nhiệt lượng của bình. **S**.
+b) Trong mô hình trên, nhiệt lượng bình hấp thụ ở hai lần bằng nhau. **Đ**.
 
 c) Phép trừ hai phương trình dẫn đến $c=P(t_2-t_1)/[\Delta T(m_2-m_1)]$. **Đ**.
 
 d) Nếu $m_1=m_2$ thì công thức trên vẫn xác định được $c$ hữu hạn mà không cần phép đo bổ sung. **S**.
+
+**Đáp án:** **S–Đ–Đ–S**.
 
 **Giải thích:** $Pt_i=(m_ic+C)\Delta T$. Phần bình $C\Delta T$ bằng nhau; khi trừ hai lần nó triệt tiêu. Cần $m_1\ne m_2$ và các điều kiện làm giả thiết “cùng $C\Delta T$” đúng.
 
@@ -195,13 +215,15 @@ d) Nếu $m_1=m_2$ thì công thức trên vẫn xác định được $c$ hữu
 
 **Tình huống.** Hai lần đun cùng chất trong cùng nhiệt lượng kế có nhiệt dung $C$ không đổi. Mỗi lần nhiệt độ chất và bình đều tăng cùng một lượng $\Delta T$, nhưng **nhiệt độ ban đầu ở lần hai cao hơn lần một**. Hai lần kéo dài cùng thời gian; nhiệt độ phòng không đổi và thấp hơn nhiệt độ mẫu suốt thí nghiệm. Cho biết tại **mọi thời điểm tương ứng**, nhiệt độ mẫu trong lần hai cao hơn lần một. Mô hình thất thoát ra môi trường có công suất tăng theo chênh lệch nhiệt độ vật–phòng, cùng một quy luật trong hai lần.
 
-a) Nhiệt lượng bình hấp thụ trong hai lần bằng nhau nếu $C$ không đổi. **Đ**.
+a) Vì thời gian đun và $\Delta T$ đều bằng nhau nên nhiệt lượng mất ra môi trường cũng nhất thiết bằng nhau. **S**.
 
-b) Vì thời gian đun và $\Delta T$ đều bằng nhau nên nhiệt lượng mất ra môi trường cũng nhất thiết bằng nhau. **S**.
+b) Nhiệt lượng bình hấp thụ trong hai lần bằng nhau nếu $C$ không đổi. **Đ**.
 
-c) Với mô hình đã cho, nhiệt lượng mất ra môi trường trong lần hai lớn hơn lần một. **Đ**.
+c) Có thể trừ hai phương trình năng lượng và tự động triệt tiêu đồng thời cả nhiệt bình hấp thụ lẫn toàn bộ nhiệt thất thoát môi trường mà không cần điều kiện bổ sung. **S**.
 
-d) Có thể trừ hai phương trình năng lượng và tự động triệt tiêu đồng thời cả nhiệt bình hấp thụ lẫn toàn bộ nhiệt thất thoát môi trường mà không cần điều kiện bổ sung. **S**.
+d) Với mô hình đã cho, nhiệt lượng mất ra môi trường trong lần hai lớn hơn lần một. **Đ**.
+
+**Đáp án:** **S–Đ–S–Đ**.
 
 **Giải thích:** $Q_{\rm bình}=C\Delta T$ bằng nhau, nhưng nếu $T_2(\tau)>T_1(\tau)$ trong cùng thời lượng thì $P_{{\rm mt},2}(\tau)>P_{{\rm mt},1}(\tau)$; tổng hao phí lần 2 lớn hơn. Chỉ **bình** được khử bởi cùng $\Delta T$.
 
@@ -213,11 +235,13 @@ d) Có thể trừ hai phương trình năng lượng và tự động triệt t
 
 a) Hai giai đoạn đầu với tốc độ hóa hơi khác nhau cho phép xác định riêng $L$ và $H$ trong mô hình đã giả định. **Đ**.
 
-b) Quan sát ở giai đoạn ba cho thấy không thể dùng cùng một bộ giá trị $L,H$ để giải thích cả ba kết quả với mô hình đã nêu trong giới hạn sai số đã đánh giá. **Đ**.
+b) Vì kết quả thứ ba không phù hợp, chắc chắn định luật bảo toàn năng lượng bị vi phạm. **S**.
 
-c) Vì kết quả thứ ba không phù hợp, chắc chắn định luật bảo toàn năng lượng bị vi phạm. **S**.
+c) Chỉ từ quan sát thứ ba có thể kết luận duy nhất rằng $L$ của chất đã thay đổi, còn giả thiết $H$ không đổi và tất cả phép đo khác đều chính xác. **S**.
 
-d) Chỉ từ quan sát thứ ba có thể kết luận duy nhất rằng $L$ của chất đã thay đổi, còn giả thiết $H$ không đổi và tất cả phép đo khác đều chính xác. **S**.
+d) Quan sát ở giai đoạn ba cho thấy không thể dùng cùng một bộ giá trị $L,H$ để giải thích cả ba kết quả với mô hình đã nêu trong giới hạn sai số đã đánh giá. **Đ**.
+
+**Đáp án:** **Đ–S–S–Đ**.
 
 **Giải thích:** Hai điểm với $r_1\ne r_2$ xác định một đường thẳng $P=Lr+H$. Điểm thứ ba lệch đường thẳng vượt sai số là bằng chứng chống lại **tập hợp mô hình và giả thiết**; không nhận diện duy nhất giả thiết nào sai. Có thể kiểm tra hao phí, mô hình công suất hữu ích, phép cân, điều kiện sôi, v.v.
 
