@@ -52,6 +52,8 @@ YCCD và văn bản chính thức quyết định phạm vi; đề thi chính th
 
 **Tài liệu PAH trên Git (đang CHỜ DUYỆT):**
 
+- **[PAH — Bài 01: Từ hiện tượng đến mô hình vật lí](chuyen_de/PAH_BAI_01_TU_HIEN_TUONG_DEN_MO_HINH_V1.md)** — bản thảo bài học, từ giả thuyết đến mô hình nhiệt, phân nhánh K–M–Đ và luyện tập.
+
 - **[MASTER ngân hàng 28 câu — phân nhóm K–M–Đ × 4 mức, toàn văn + đáp án](cau_hoi/PM01_MASTER_NGAN_HANG_CAU_HOI.md)** — điểm vào để chọn câu làm đề cương.
 
 - [Phân tích phương pháp từ video 05](chuyen_de/PHAN_TICH_VIDEO_05_BAN_THAO.md)
